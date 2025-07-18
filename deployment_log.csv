@@ -1,0 +1,5 @@
+Timestamp,Hostname,Status,Action,Details
+2025-07-18 14:32:21,LT0120803,ERROR,Prerequisite Check,Command failed. Is 'psexec.exe' or 'robocopy.exe' in your system's PATH?
+2025-07-18 14:39:13,LT0120803,INFO,Check Service,Service 'Iamlive' not found.
+2025-07-18 14:39:14,LT0120803,SUCCESS,Copy File,Copied dotnet-hosting-9.0.7-win.exe to C:\testcopypaste
+2025-07-18 14:39:15,LT0120803,ERROR,Command Execution,The handle is invalid. Connecting to local system...   Couldn't install PSEXESVC service: Connecting to local system...  
