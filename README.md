@@ -4,7 +4,7 @@ A simple yet powerful Windows desktop application for remotely deploying executa
 
 This tool provides a user-friendly graphical interface (GUI) to automate the process of stopping a service, replacing its executable file, and restarting it, or creating and starting the service if it doesn't exist.
 
-![image](https://placehold.co/800x500/f0f0f0/333333?text=App+Screenshot+Here)
+![Application Screenshot](./app_screenshot.png)
 
 ---
 
@@ -36,11 +36,11 @@ This tool provides a user-friendly graphical interface (GUI) to automate the pro
 
 ### 1. Folder Setup
 
-Before running the application, place the `psexec.exe` file in the **same directory** as the application (`deployment_tool.py` or `deployment_tool.exe`).
+Before running the application, place the `psexec.exe` file and your screenshot (`app_screenshot.png`) in the **same directory** as the application itself.
 
 Your folder structure should look like this:
 
-/RemoteDeploymentTool/|-- deployment_tool.py  (or deployment_tool.exe)|-- psexec.exe
+/RemoteDeploymentTool/|-- deployment_tool.py  (or deployment_tool.exe)|-- psexec.exe|-- app_screenshot.png|-- README.md
 ### 2. Running the Application
 
 **Crucial Step:** Right-click the application file (`.py` or `.exe`) and select **"Run as administrator"**.
@@ -84,7 +84,6 @@ To create a standalone `deployment_tool.exe` from the Python script (`.py`), you
     - `--add-data "psexec.exe;."`: Finds `psexec.exe` and includes it in the final package.
 
 4.  Your final `.exe` will be located in the `dist` folder.
-
 
 ## License
 
