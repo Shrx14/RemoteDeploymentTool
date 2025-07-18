@@ -4,7 +4,8 @@ A simple yet powerful Windows desktop application for remotely deploying executa
 
 This tool provides a user-friendly graphical interface (GUI) to automate the process of stopping a service, replacing its executable file, and restarting it, or creating and starting the service if it doesn't exist.
 
-![image](https://placehold.co/800x500/f0f0f0/333333?text=App+Screenshot+Here)
+![image](<img width="959" height="502" alt="{58888EF4-4625-46A4-8C93-BCB7AFBEEE68}" src="https://github.com/user-attachments/assets/3f4b512d-39d4-42b3-8da7-d322384686f0" />
+)
 
 ---
 
